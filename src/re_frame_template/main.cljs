@@ -1,10 +1,10 @@
-(ns gimme-my-money.main
+(ns re-frame-template.main
   (:require [reagent.core :as reagent]
             [re-frame.core :as re-frame]
-            [gimme-my-money.config :as config]
-            [gimme-my-money.views :as views]
-            [gimme-my-money.events :as events]
-            [gimme-my-money.routes :as routes]
+            [re-frame-template.config :as config]
+            [re-frame-template.views :as views]
+            [re-frame-template.events :as events]
+            [re-frame-template.routes :as routes]
             [router]))
 
 (defn dev-setup! []

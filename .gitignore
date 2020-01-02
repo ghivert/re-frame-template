@@ -4,7 +4,7 @@ node_modules
 .shadow-cljs
 public/js
 public/styles.css
-src/gimme_my_money/styles
+src/re_frame_template/styles
 
 # local env files
 .env.local

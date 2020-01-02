@@ -1,4 +1,4 @@
-(ns gimme-my-money.config)
+(ns re-frame-template.config)
 
 ;; Defines the verbosity. Will be overriden by
 ;;  closure-defines during compilation.

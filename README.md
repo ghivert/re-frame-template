@@ -1,29 +1,15 @@
-# ublo
+# Re-Frame Template
 
-## Project setup
-```
-yarn install
-```
+This repo aims to provide a simple, classic re-frame template for ClojureScript.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# Getting Started
 
-### Compiles and minifies for production
-```
-yarn run build
+```bash
+git clone git@github.com:ghivert/re-frame-template.git my-app
+cd my-app
+rm -rf .git
+git init
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Then, you'll have to rename the template name. `re_frame_template` should become
+`my_app` and `re-frame-template` should become `my-app`. 

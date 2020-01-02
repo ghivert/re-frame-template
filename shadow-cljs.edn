@@ -11,15 +11,15 @@
  :builds {:app {:target :browser
                 :output-dir "public/js"
                 :asset-path "/js"
-                :closure-defines {gimme-my-money.config/verbose? true
-                                  gimme-my-money.config/dev? true
+                :closure-defines {re-frame-template.config/verbose? true
+                                  re-frame-template.config/dev? true
                                   re-frame.trace/trace-enabled? true
                                   day8.re-frame.tracing/trace-enabled? true}
                 :compiler-options {:output-feature-set :es-next}
-                :modules {:main {:init-fn gimme-my-money.main/main!}}
-                :devtools {:after-load gimme-my-money.main/reload!
+                :modules {:main {:init-fn re-frame-template.main/main!}}
+                :devtools {:after-load re-frame-template.main/reload!
                            :preloads [day8.re-frame-10x.preload]
                            :http-root "public"
                            :http-port 7070}
-                :release {:closure-defines {gimme-my-money.config/verbose? false
-                                            gimme-my-money.config/dev? false}}}}}
+                :release {:closure-defines {re-frame-template.config/verbose? false
+                                            re-frame-template.config/dev? false}}}}}
