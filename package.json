@@ -1,14 +1,14 @@
 {
-  "name": "ublo",
+  "name": "re_frame_template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "run-p dev-cljs dev-css",
     "dev-cljs": "shadow-cljs watch app",
-    "dev-css": "modular-styles watch --source src --dest src/ublo/styles --files src/styles",
+    "dev-css": "modular-styles watch --source src --dest src/re_frame_template/styles --files src/styles",
     "release": "yarn compile-css && shadow-cljs release app",
     "server": "shadow-cljs server",
-    "clean": "rm -rf target && rm -rf public/js public/css public/styles.css src/ublo/styles"
+    "clean": "rm -rf target && rm -rf public/js public/css public/styles.css src/re_frame_template/styles"
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
