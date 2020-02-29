@@ -3,7 +3,6 @@
    [re-frame.core :as re-frame]
    [re-frame-template.db :as db]
    [re-frame-template.config :as config]
-   [com.degel.re-frame.storage]
    [day8.re-frame.tracing :refer-macros [fn-traced defn-traced]]))
 
 (re-frame/reg-event-db ::initialize-db

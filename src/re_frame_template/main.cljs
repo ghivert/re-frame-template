@@ -5,7 +5,7 @@
             [re-frame-template.views :as views]
             [re-frame-template.events :as events]
             [re-frame-template.routes :as routes]
-            [router]))
+            [router.core :as router]))
 
 (defn dev-setup! []
   (when config/debug?
